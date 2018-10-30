@@ -1,0 +1,11 @@
+#Internal package file, do not edit.
+#Tue Oct 30 11:38:18 GMT-08:00 2018
+1.base=D\:\\Blood bank final\\app\\build\\intermediates\\merged_assets\\release\\mergeReleaseAssets\\out
+0.baseType=DIRECTORY
+1.baseType=DIRECTORY
+count=2
+1.set=ASSET
+0.path=classes.dex
+0.set=DEX
+0.base=D\:\\Blood bank final\\app\\build\\intermediates\\transforms\\dexMerger\\release\\0
+1.path=fahim.ttf

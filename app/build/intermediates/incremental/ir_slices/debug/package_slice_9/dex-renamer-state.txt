@@ -1,0 +1,4 @@
+#Tue Oct 30 09:51:15 GMT-08:00 2018
+base.0=D\:\\Blood bank final\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\9
+path.0=classes.dex
+renamed.0=classes.dex

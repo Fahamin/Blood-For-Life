@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".activity.DonorInput">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:orientation="vertical"
+                android:paddingBottom="8dp">
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="8dp"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:padding="5dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:paddingBottom="8dp">
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:orientation="horizontal"
+                            android:paddingLeft="5dp"
+                            android:paddingRight="5dp">
+
+                            <ImageView
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:background="@color/colorPrimaryDark"
+                                android:padding="8dp"
+                                android:tint="#fff"
+                                app:srcCompat="@drawable/ic_user"
+                                tools:ignore="VectorDrawableCompat"
+
+                                />
+
+                            <EditText
+                                android:id="@+id/nameET"
+                                android:layout_width="0dp"
+                                android:layout_height="50dp"
+                                android:layout_weight="1"
+                                android:background="#ccc"
+                                android:hint="Donor's full name"
+                                android:inputType="textEmailAddress"
+                                android:padding="8dp"
+                                android:textSize="14sp" />
+
+
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:orientation="horizontal"
+                            android:paddingLeft="5dp"
+                            android:paddingRight="5dp">
+
+                            <ImageView
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:background="@color/colorPrimaryDark"
+                                android:padding="8dp"
+
+                                android:tint="#fff"
+                                app:srcCompat="@drawable/ic_email"
+                                tools:ignore="VectorDrawableCompat" />
+
+                            <EditText
+                                android:id="@+id/emailET"
+                                android:layout_width="0dp"
+                                android:layout_height="50dp"
+                                android:layout_weight="1"
+                                android:background="#ccc"
+                                android:hint="Donor's email (optional)"
+                                android:inputType="textEmailAddress"
+                                android:padding="8dp"
+                                android:textSize="14sp" />
+
+
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:orientation="horizontal"
+                            android:paddingLeft="5dp"
+                            android:paddingRight="5dp">
+
+                            <ImageView
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:background="@color/colorPrimaryDark"
+                                android:padding="8dp"
+                                android:tint="#fff"
+                                app:srcCompat="@drawable/ic_phone"
+                                tools:ignore="VectorDrawableCompat" />
+
+                            <EditText
+                                android:id="@+id/phoneET"
+                                android:layout_width="0dp"
+                                android:layout_height="50dp"
+                                android:layout_weight="1"
+                                android:background="#ccc"
+                                android:hint="Donor's phone"
+                                android:inputType="phone"
+                                android:padding="8dp"
+                                android:textSize="14sp" />
+
+
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:orientation="horizontal"
+                            android:paddingLeft="5dp"
+                            android:paddingRight="5dp">
+
+                            <ImageView
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:background="@color/colorPrimaryDark"
+                                android:padding="8dp"
+
+                                android:tint="#fff"
+                                app:srcCompat="@drawable/ic_city"
+                                tools:ignore="VectorDrawableCompat" />
+
+                            <EditText
+                                android:id="@+id/cityET"
+                                android:layout_width="0dp"
+                                android:layout_height="50dp"
+                                android:layout_weight="1"
+                                android:background="#ccc"
+                                android:hint="Donor's city"
+                                android:padding="8dp"
+                                android:textSize="14sp" />
+
+
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:orientation="horizontal"
+                            android:paddingLeft="5dp"
+                            android:paddingRight="5dp">
+
+                            <ImageView
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:background="@color/colorPrimaryDark"
+                                android:padding="8dp"
+
+                                android:tint="#fff"
+                                app:srcCompat="@drawable/ic_blood"
+                                tools:ignore="VectorDrawableCompat" />
+
+                            <Spinner
+                                android:id="@+id/blood_group_SP"
+                                android:layout_width="0dp"
+                                android:layout_height="50dp"
+                                android:layout_weight="1"
+                                android:background="#ccc"
+                                android:entries="@array/blood_group"
+                                android:padding="5dp">
+
+                            </Spinner>
+
+
+
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:orientation="horizontal"
+                            android:paddingLeft="5dp"
+                            android:paddingRight="5dp">
+
+                            <ImageView
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:background="@color/colorPrimaryDark"
+                                android:padding="8dp"
+                                android:tint="#fff"
+                                app:srcCompat="@drawable/ic_calendar"
+                                tools:ignore="VectorDrawableCompat" />
+
+                            <EditText
+                                android:id="@+id/donateDateET"
+                                android:layout_width="0dp"
+                                android:layout_height="50dp"
+                                android:layout_weight="1"
+                                android:background="#ccc"
+                                android:hint="Last Donate Date (optional)"
+                                android:padding="8dp"
+                                android:textSize="14sp" />
+
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+
+                </android.support.v7.widget.CardView>
+
+
+                <Button
+                    android:id="@+id/inputBTN"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginRight="8dp"
+                    android:background="@color/colorPrimaryDark"
+                    android:text="Input"
+                    android:textColor="#fff" />
+
+                <TextView
+                    android:id="@+id/messageTV"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:padding="5dp"
+                    android:text="Thank you so much. Your data has been successfully stored in our global database. You may add multiple donor's information to help people to getting blood."
+                    android:textColor="@color/colorGreen"
+                    android:textSize="12sp"
+                    android:visibility="gone" />
+
+            </LinearLayout>
+        </ScrollView>
+
+
+    </LinearLayout>
+
+</LinearLayout>
