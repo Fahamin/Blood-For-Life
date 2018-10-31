@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\Blood bank final\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-in\\values-in.xml",
+            "outputFile": "D:\\Upload app\\Blood bank final\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-in\\values-in.xml",
             "map": [
                 {
                     "source": "C:\\Users\\fahim\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-15.0.1.aar\\86efe6042133a59df59a2bf34dda8cd3\\res\\values-in\\values.xml",
