@@ -1,9 +1,9 @@
 
 
-Name    	 : FAHAMIN
-Email   	 : fahamin00@gmail.com
-phone    	 : 01639467698
-NID      	 : 19969314712000421
-Batch ID 	 : L1A-C-29-0
-Registration No  : L1A-C-29-0-01
-course Registered: Android
+Name    	    : FAHAMIN
+Email   	    : fahamin00@gmail.com
+phone    	    : 01639467698
+NID      	    : 19969314712000421
+Batch ID 	    : L1A-C-29-0
+Registration No     : L1A-C-29-0-01
+course Registered   : Android
